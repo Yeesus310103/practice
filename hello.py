@@ -10,3 +10,6 @@ class Doctor:
         self.working_time = working_time
         self.qualification = qualification
         self.room_number = room_number
+
+class Doctor:
+    def __init__(self, doctorId = 0, name = "N/A", specialization = "N/A", qualification = "N/A", roomNum = 0):
